@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.canvas {
+    display: flex;
+    justify-content: center;
+}
+
+.tools {
+    display: flex;
+    justify-content: center;
+}
+
+.tools button,
+.tools div,
+.tools input {
+    margin-left: 5px;
+}
+
+.tools .color-field {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.tools .pen-range {
+    align-self: center;
+    width: 20%;
+}
